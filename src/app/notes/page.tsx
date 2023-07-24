@@ -41,4 +41,4 @@ const getNotes = async () => {
 };
 
 export default Page;
-export { revalidate, metadata, getNotes };
+export { revalidate, metadata };
