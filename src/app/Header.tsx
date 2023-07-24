@@ -19,7 +19,7 @@ const Header: FC = () => {
           <nav className="hidden md:flex gap-12">
             <Link href="/notes" className="text-gray-600 hover:text-pink-500 active:text-pink-700 text-lg font-semibold transition duration-100">Memo</Link>
             <Link href="/" className="text-gray-600 hover:text-pink-500 active:text-pink-700 text-lg font-semibold transition duration-100">FAQ</Link>
-            <Link href="/" className="text-gray-600 hover:text-pink-500 active:text-pink-700 text-lg font-semibold transition duration-100">Setting</Link>
+            <Link href="/settings" className="text-gray-600 hover:text-pink-500 active:text-pink-700 text-lg font-semibold transition duration-100">Setting</Link>
           </nav>
           <div>
             <span className="inline-block focus-visible:ring ring-pink-300 text-gray-500 hover:text-pink-500 active:text-pink-600 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-2 py-3">
